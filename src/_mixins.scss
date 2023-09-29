@@ -1,0 +1,15 @@
+@mixin flex-box($padding) {
+  display: flex;
+  justify-content: center;
+  padding: $padding;
+}
+
+@mixin button(){
+  font-size: 18px;
+  background-color: #bba9a9;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
